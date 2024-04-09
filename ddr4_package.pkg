@@ -1,0 +1,16 @@
+package ddr4_pkg;	
+
+	parameter HIGH = 1'b1;
+	parameter LOW = 1'b0;
+		
+	typedef enum bit [3:0] {RESET, IDLE, ACTIVATE, INITIALIZE, WRITE, WRITE_A, READ, READ_A, PRECHARGE , REFRESH} State; 
+	
+	typedef enum bit [2:0] {BANK0_0, BANK0_1, BANK0_2, BANK0_3, BANK1_0, BANK1_1, BANK1_2, BANK1_3} Bank_State;
+	
+	parameter WORD_SIZE = 16;
+	parameter ROW_WIDTH = 8;
+	parameter COL_WIDTH = 6;
+	parameter REFRESH_WIDTH = 6;
+	parameter BURST_LEN = 3'b100;  						//DEFINING BURST LENGTH FOR BURST OPERATION
+	parameter REFRESH_PERIOD = 6'b100100;		//32 micro
+endpackage      
