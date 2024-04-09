@@ -7,7 +7,8 @@ This project implements a DDR4 Memory Controller in SystemVerilog.
 
 The project aims at Designing a DDR4 RAM using System Verilog with improved efficiency of the system in terms of: Data rate, increased read/write operations speed, faster burst access and reduce memory power demand.  
 This project doesnt include an extensive testbench. However a Testbench included has different operating modes that are commented and can be simulated for each mode by un-commenting and simulating accordingly.  The top module can be replaced with a more exhastive testbench/UVM environment.  
-This project was originally developed using SV and simulated using Cadence Xcelium Logic Simulator.
+This project was originally developed using SV and simulated using Cadence Xcelium Logic Simulator.  
+The supporting documents used for the presentation of this project has also been attatched alongwith the project code for further reference.  
 
 Authors:  
     
